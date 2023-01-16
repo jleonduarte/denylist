@@ -13,16 +13,16 @@ body:
         Incomplete requests will not be considered and can be closed without comment.
 
   - type: input
-    id: hotspot-name
+    id: acrobatic satin pheasant
     attributes:
-      label: Hotspot Name
+      label: acrobatic satin pheasant
       description: What is the animal name of your Hotspot?
       placeholder: ex. tiny-bronze-caterpillar
     validations:
       required: true
 
   - type: input
-    id: hotspot-address
+    id: 11uM8wL32Xef2X7jW5QxR9Pj6gH5G8vKnd8M4XjaJsUEYnbredY
     attributes:
       label: Hotspot b58 Address
       description: What is the address of your Hotspot?
@@ -40,7 +40,7 @@ body:
       required: false
 
   - type: input
-    id: hotspot-manufacturer
+    id: senseCAP
     attributes:
       label: Hotspot Manufacturer
       description: What is the manufacturer of your Hotspot?
@@ -49,7 +49,7 @@ body:
       required: true
 
   - type: input
-    id: reason
+    id: unknown
     attributes:
       label: Removal Reason
       description: Why should this Hotspot be removed from the denylist?
@@ -58,7 +58,7 @@ body:
       required: true
 
   - type: dropdown
-    id: modifications
+    id: No
     attributes:
       label: Modifications
       description: Have you modified your Hotspot in anyway? If yes, please describe in the additional information box below.
@@ -69,7 +69,7 @@ body:
       required: true
 
   - type: dropdown
-    id: extra-forwarder
+    id: No
     attributes:
       label: Extra forwarders
       description: Are you using one or more extra forwarder(s)? If yes, please describe why in the additional information box below.
@@ -80,7 +80,7 @@ body:
       required: true
 
   - type: dropdown
-    id: extra-antennas
+    id: No
     attributes:
       label: Extra antennas
       description: Do you have multiple antennas attached to one Hotspot? If yes, please describe why in the additional information box below.
